@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelector("#create-task-form").addEventListener('submit',(e) => 
   {
     e.preventDefault()
-    handleTodo(e.target.new_task.value)
+    handleTodo(e.target.new-task-description.value)
   })
 
   function handleTodo(todo){
